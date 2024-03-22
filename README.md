@@ -41,13 +41,32 @@ print(x)
 * Revise como utilizar el valor de pi usando import math y math.pi
 
 ```python
-
+import math
+def are (a:float, b:float, r:float):
+    return (b*a) + 2*(math.pi*r)
+def per (a:float, b:float, r:float):
+    return (2*(b+a)) + (2*math.pi*r)
+if __name__ == "__main__":
+    a = float(input("Altura del rectangulo: "))
+    b = float(input("Base del rectangulo: "))
+    r = float(input("Radio de los dos circulos: "))
+area_t = are(a, b, r)
+print("El area total del la figura es " + str(area_t) + "")
+per_t = per(a, b, r)
+print("El perimetro total del la figura es " + str(per_t) + "")
 ```
 
 3. Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
 ```python
-
+def masa(n:float,m:float,k:float) -> float:
+  return n*6+m*7+k*1
+if __name__ == "__main__":
+    n=float(input("Cantidad de gallinas: "))
+    m=float(input("Cantidad de gallos: "))
+    k=float(input("Cantidad de pollitos: "))
+    masa_total = masa(n,m,k)
+    print("La cantidad o masa total es "+str(masa_total)+" kilogramos")
 ```
 
 4. Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
