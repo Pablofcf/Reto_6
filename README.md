@@ -31,7 +31,25 @@
 4. Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
 ```python
+billete = int(input("Valor del billete a pagar: \n"))
+h = int(input("Número de huevos: \n"))
+p = int(input("Número de panes: \n"))
+m = int(input("Número de bolsas de leche: \n"))
 
+pan = p * 300
+leche = m * 3300
+huevos = h * 350
+total = pan + leche + huevos
+vuelto = billete - total
+debe = total - billete
+if billete in [2000, 5000, 10000, 20000, 50000, 100000]:
+    
+    if vuelto >= 0:
+        print("El vuelto es:", vuelto)
+    else:
+        print("La persona debe:", debe, "pesos adicionales.")
+else:
+    print("No es un billete real.")
 ```
 
 5. Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
@@ -44,7 +62,13 @@
 
 
 ```python
-
+d=int(input("Dias que pasaron: "))
+c=int(input("Personas  iniciales contaminadas: "))
+personas_finales=c*(2**d)
+if d>0 and c>0:
+  print("Se contaminaron:",personas_finales,"personas en",d,"dias")
+else:
+  print("No hay dias negativos")
 ```
 
 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
