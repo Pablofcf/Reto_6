@@ -131,11 +131,35 @@ if __name__ == "__main__":
 
 ```
 
-8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
-
-
 9. Consultar qué es y cómo funciona pip en python.
-  
+
+pip es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python. Muchos paquetes pueden ser encontrados en el Python Package Index (PyPI). pip es un acrónimo recursivo que se puede interpretar como Pip Instalador de Paquetes o Pip Instalador de Python. Una característica particular de pip es que permite gestionar listas de paquetes y sus números de versión correspondientes a través de un archivo de requisitos. Esto nos permite una recreación eficaz de un conjunto de paquetes en un entorno separado (p. ej. otro ordenador) o entorno virtual. 
 
 10. Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
 
+* Colecciones
+* CSV
+* Aleatorio
+* Tkinter
+* Solicitudes
+* BeautifulSopa4
+* Numpy
+* pandas
+* matplotlib
+* TensorFlow
+* Keras
+* Scikitt-Aprende
+* Django
+* Frasco
+
+<h2>Bibliografía</h2>
+    <div class="bibliografia">
+        <table>
+          <tr>
+                <td>Hafeezul Kareem Shaik. 14 bibliotecas y módulos de Python que todo desarrollador debería conocer. Recuperado de https://geekflare.com/es/popular-python-libraries-modules/<a href="https://geekflare.com/es/popular-python-libraries-modules/"></a></td>
+            </tr> 
+          <tr>
+                <td>Wikipedia. (2024). Pip (administrador de paquetes). Recuperado de (https://es.wikipedia.org/wiki/Pip_(administrador_de_paquetes))<a href="(https://es.wikipedia.org/wiki/Pip_(administrador_de_paquetes))"></a></td>
+          </tr>            
+        </table>
+    </div>
