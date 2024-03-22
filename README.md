@@ -62,13 +62,18 @@ else:
 
 
 ```python
-d=int(input("Dias que pasaron: "))
-c=int(input("Personas  iniciales contaminadas: "))
-personas_finales=c*(2**d)
-if d>0 and c>0:
-  print("Se contaminaron:",personas_finales,"personas en",d,"dias")
-else:
-  print("No hay dias negativos")
+def personas_finales(c: int, d: int) -> int:
+    return c * (2 ** d)
+
+if __name__ == "__main__":
+    d = int(input("Dias que pasaron: "))
+    c = int(input("Personas iniciales contaminadas: "))
+    
+    if d > 0 and c > 0:
+        personas_contaminadas = personas_finales(c, d)
+        print("Se contaminaron:", personas_contaminadas, "personas en", d, "días.")
+    else:
+        print("No se pueden tener días o personas negativas.")
 ```
 
 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
