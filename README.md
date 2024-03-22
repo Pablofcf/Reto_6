@@ -14,10 +14,8 @@
 2. Dado la figura de la imagen, desarrolle:
 [![68747470733a2f2f692e706f7374696d672e63632f3174344d727a734c2f696d6167652e706e67.png](https://i.postimg.cc/jjw6fwmt/68747470733a2f2f692e706f7374696d672e63632f3174344d727a734c2f696d6167652e706e67.png)](https://postimg.cc/wtzs8v9G)
 
-* Una función matemática para calcular el área y el perimetro.
-  
-* Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b.
-  
+* Una función matemática para calcular el área y el perimetro.  
+* Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r, a y b. 
 * Revise como utilizar el valor de pi usando import math y math.pi
 
 ```python
@@ -51,12 +49,10 @@
 
 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
 
-* El promedio
-  
-* La mediana
-  
-El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
-Ordenar los números de forma ascendente
-Ordenar los números de forma descendente
-La potencia del mayor número elevado al menor número
-La raíz cúbica del menor número
+* El promedio  
+* La mediana  
+* El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+* Ordenar los números de forma ascendente
+* Ordenar los números de forma descendente
+* La potencia del mayor número elevado al menor número
+* La raíz cúbica del menor número
