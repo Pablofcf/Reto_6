@@ -25,6 +25,13 @@ if __name__ == "__main__":
   Area_superficial = calculo_area_superficial(r1,r2,h)
   print("El volumen es: " + str(Volumen_figura) + ", el area superficial es: " + str(Area_superficial))
 ```
+Valor de pi en math
+```python
+import math
+x =math.pi
+print(x)
+# 3.1415...
+```
 
 2. Dado la figura de la imagen, desarrolle:
 [![68747470733a2f2f692e706f7374696d672e63632f3174344d727a734c2f696d6167652e706e67.png](https://i.postimg.cc/jjw6fwmt/68747470733a2f2f692e706f7374696d672e63632f3174344d727a734c2f696d6167652e706e67.png)](https://postimg.cc/wtzs8v9G)
