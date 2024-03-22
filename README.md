@@ -56,3 +56,16 @@
 * Ordenar los números de forma descendente
 * La potencia del mayor número elevado al menor número
 * La raíz cúbica del menor número
+
+```python
+
+```
+
+8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
+
+
+9. Consultar qué es y cómo funciona pip en python.
+  
+
+10. Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
+
