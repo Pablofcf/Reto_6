@@ -115,7 +115,20 @@ if __name__ == "__main__":
 5. Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
 
 ```python
+c: int
+ti: float  # tasa de interes (en porcentaje)
+t: int  # tiempo
+def interes(c: int, ti: float) -> float:
+    return c * (ti / 100)  # Convertimos la tasa de interés a porcentaje
 
+def valor_final(c: int, ti: float, t: int) -> float:
+    return c * (1 + interes(c, ti)) ** t
+
+if __name__ == "__main__":
+    c = int(input("Ingrese el capital del préstamo: "))
+    ti = float(input("Ingrese la tasa de interés  sin el signo %): "))
+    t = int(input("Ingrese el tiempo en meses: "))
+    print("Este es el interés compuesto:", valor_final(c, ti, t))
 ```
 
 6. El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
